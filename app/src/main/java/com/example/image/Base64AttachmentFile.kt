@@ -48,7 +48,7 @@ class Base64AttachmentFile {
 
         }
 
-        fun convertAttachmentToString2(context: Context, attachmentURI: Uri?): String? {
+        fun convertAttachmentToString2(context: Context, attachmentURI: Uri?): String {
 
             var imgByte = ByteArray(0)
             try {

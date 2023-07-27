@@ -45,12 +45,34 @@
             android:layout_margin="20dp"
             android:text="Click"/>
 
-        <Button
-            android:id="@+id/next"
-            android:layout_width="wrap_content"
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="20dp"
-            android:text="next"/>
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/next"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:text="next"/>
+            <Button
+                android:id="@+id/locationClick"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:text="Loaction"/>
+
+        </LinearLayout>
+
+
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="88dp"
+            android:layout_height="match_parent"
+            android:background="#fff"
+            android:src="@drawable/icons_setting" />
 
     </LinearLayout>
 </layout>
